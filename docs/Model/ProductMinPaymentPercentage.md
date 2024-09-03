@@ -1,0 +1,10 @@
+# # ProductMinPaymentPercentage
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**include_fees_charged** | [**\OpenAPI\Client\Model\ProductFeeType[]**](ProductFeeType.md) | One or more fee types to include when calculating the minimum payment. |
+**percentage_of_balance** | **float** | Minimum payment, expressed as a percentage of the total statement balance, due on the payment due day. |
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
